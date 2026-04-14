@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+      <key>PayloadContent</key>
+      <array>
+        <dict>
+          <key>DNSSettings</key>
+          <dict>
+            <key>DNSProtocol</key>
+            <string>HTTPS</string>
+            <key>ServerAddresses</key>
+            <array>
+              <string>172.64.36.1</string>
+<string>172.64.36.2</string>
+<string>2a06:98c1:54::41:4bc2</string>
+
+            </array>
+            <key>ServerURL</key>
+            <string>https://pk82ihmt4m.cloudflare-gateway.com/dns-query</string>
+          </dict>
+          <key>PayloadDescription</key>
+          <string>Configures device to use Cloudflare Custom Encrypted DNS over HTTPS</string>
+          <key>PayloadDisplayName</key>
+          <string>Cloudflare Custom DNS over HTTPS</string>
+          <key>PayloadIdentifier</key>
+          <string>com.apple.dnsSettings.managed.639b792a-a214-4aa9-82a7-5d0adbf93e69</string>
+          <key>PayloadType</key>
+          <string>com.apple.dnsSettings.managed</string>
+          <key>PayloadUUID</key>
+          <string>64c9ae86-0072-4cdd-af65-cd9a5046ec7d</string>
+          <key>PayloadVersion</key>
+          <integer>1</integer>
+          <key>ProhibitDisablement</key>
+          <false/>
+        </dict>
+      </array>
+      <key>PayloadDescription</key>
+      <string>Adds the Cloudflare Custom DNS to Big Sur and iOS 14 based systems</string>
+      <key>PayloadDisplayName</key>
+      <string>Cloudflare Custom DNS over HTTPS</string>
+      <key>PayloadIdentifier</key>
+      <string>plus.simpledns.apple-dns</string>
+      <key>PayloadRemovalDisallowed</key>
+      <false/>
+      <key>PayloadType</key>
+      <string>Configuration</string>
+      <key>PayloadUUID</key>
+      <string>a016bebb-a4ae-463f-995e-e9327630de07</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+</dict>
+</plist>
